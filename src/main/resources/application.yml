@@ -1,0 +1,14 @@
+server:
+  shutdown: graceful
+
+spring:
+  task:
+    execution:
+      shutdown:
+        await-termination: true
+        await-termination-period: 10s
+
+logging:
+  level:
+    root: info
+    org.springframework: info

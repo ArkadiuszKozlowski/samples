@@ -1,0 +1,10 @@
+hazelcast:
+  properties:
+    hazelcast.shutdownhook.enabled: false
+    hazelcast.logging.type: slf4j
+  network:
+    join:
+      multicast:
+        enabled: false
+      tcp-ip:
+        enabled: false
