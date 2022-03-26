@@ -1,4 +1,4 @@
 # samples
 
 Each branch is a different sample:
-- [Graceful shutdown sample](/ArkadiuszKozlowski/samples//tree/graceful-shutdown)
+- [Spring application graceful shutdown sample](../../tree/graceful-shutdown)
